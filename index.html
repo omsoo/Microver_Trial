@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
@@ -18,7 +19,7 @@
       <nav id="nav-bar">
         <a href="#features" class="nav-link">Features</a>
         <a href="#how-it-works" class="nav-link">How It Works</a>
-        <a href="#features" class="nav-link">Features</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
       </nav>
     </header>
 
@@ -27,7 +28,7 @@
 
       <form id="form" action="https://www.freecodecamp.com/email-submit">
         <div class="form-container">
-          <input type="email" id="email" placeholder="Type your email" />
+          <input type="email" id="email" placeholder="Type your email" name="email" />
           <input type="submit" id="submit" />
         </div>
       </form>
@@ -39,7 +40,60 @@
       </div>
 
       <section id="how-it-works">
-        <iframe class="video" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="video" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+
+      <section id="pricing">
+        <div class="pricing_plan">
+          <div class="pricing_plan_head">
+            TENOR TROMBONE
+          </div>
+
+          <div class="pricing_plan_price">$500</div>
+
+          <div class="pricing_plan_body">
+            <p>Lorem Ipsum.</p>
+            <p>Lorem Ipsum.</p>
+            <p>Lorem Ipsum.</p>
+            <p>Lorem Ipsum.</p>
+          </div>
+
+          <button class="pricing_button">SELECT</button>
+        </div>
+
+        <div class="pricing_plan">
+          <div class="pricing_plan_head">
+            BASS TROMBONE
+          </div>
+
+          <div class="pricing_plan_price">$500</div>
+
+          <div class="pricing_plan_body">
+            <p>Lorem Ipsum.</p>
+            <p>Lorem Ipsum.</p>
+            <p>Lorem Ipsum.</p>
+            <p>Lorem Ipsum.</p>
+          </div>
+
+          <button class="pricing_button">SELECT</button>
+        </div>
+
+        <div class="pricing_plan">
+          <div class="pricing_plan_head">
+            VALVE TROMBONE
+          </div>
+
+          <div class="pricing_plan_price">$500</div>
+
+          <div class="pricing_plan_body">
+            <p>Lorem Ipsum.</p>
+            <p>Lorem Ipsum.</p>
+            <p>Lorem Ipsum.</p>
+            <p>Lorem Ipsum.</p>
+          </div>
+
+          <button class="pricing_button">SELECT</button>
+        </div>
       </section>
 
       <a href="https://youtu.be/y8Yv4pnO7qc" id="video-link"><a/>
