@@ -11,6 +11,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  background-color: #eeeeee;
 }
 
 #header-img {
@@ -56,7 +57,7 @@ body {
   text-transform: uppercase;
 }
 
-#container {
+#features {
   display: flex;
   flex-direction: column;
   align-item: center;
@@ -64,6 +65,11 @@ body {
 .firstParagraph {
   padding: 10px 0;
   text-align: left;
+}
+
+.video {
+  width: 600px;
+  height: 400px;
 }
 
 @media (max-width: 768px) {
@@ -82,5 +88,9 @@ body {
 
   #heroSection {
     margin-top: 200px;
+  }
+
+  .video {
+    width: 95vw;
   }
 }
